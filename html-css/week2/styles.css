@@ -1,0 +1,173 @@
+body{
+    font-size:Arial,Helvetica,sans-serif ;
+    margin:0;
+    display: flex;
+    flex-flow: column;
+
+}
+body,h1,h2,h3,p{
+    margin: 0;
+}
+h1{
+    font-size: 30px;
+
+}
+.text-box p{
+    font-size: 30px;
+}
+.header{
+    
+    background-color: rgb(239, 247, 247);
+    position: relative;
+
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-info{
+    flex: 1;
+    text-align: right;
+}
+.text-box{
+    
+    color: black;
+    padding-left: 250px;
+    
+    text-align: left;
+
+}
+.text-box h1{
+    font-size: 25px;
+    font-style: inherit;
+    padding-top: 20px;
+
+
+}
+.text-box p{
+    font-size: 20px;
+    margin: 0px 0px 0px;
+    padding-left: 50px;
+    color: silver;
+
+}
+img{
+    height:auto ;
+    max-width:100% ;
+}
+.nav-info image{
+    width: 100px;
+
+
+}
+.nav-info ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    padding: 8px 12px;
+}
+.nav-info ul li a{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-info ul li a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: brown;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    list-style: none;
+
+}
+.nav-info ul li:hover ::after{
+    width: 100%;
+
+
+}
+
+section{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px 60px 10px 90px;
+    margin-bottom: 30px;
+}
+
+
+.middle .text-box2{
+    font-size: 15px;
+    padding: 30px 50px 70px 40px;
+
+   
+    
+
+}
+.middle .text-box2 .h3{
+    padding-right: 100px;
+}
+.text-box2 p{
+    color: rgb(153, 147, 147);
+    padding-top: 30px;
+}
+main {
+  padding: 0px 50px 100px 550px;
+  text-align: justify;
+  text-align-last: auto;
+}
+  
+  .middle-right .text-box3 p{
+      color: rgb(88, 85, 85);
+      padding-top: 10px;
+      margin-right: 45px;
+
+  }
+  .last-heading h2{
+      font-size: 18px;
+      padding-left: 130px;
+      
+  }
+  .last-heading p{
+
+    color: silver;
+    padding-left: 130px;
+  }
+  section{
+    font-size: 18px;
+    color: rgb(3, 3, 3);
+    text-align: end;
+}
+.icons{
+    display: flex;
+    flex-flow: row wrap;
+}
+.icons img{
+    margin: 40px 40px 40px 5px;
+    justify-content: end;
+
+}
+footer .nav{
+    display: flex;
+    justify-content:space-evenly ;
+    width: auto;
+    flex-direction: row;
+    list-style: none;
+    border: 1px solid orchid;
+    background-color: orchid;
+}
+ul{
+    list-style: none;
+    padding-left: 0px;
+
+}
+footer nav{
+    padding: 20px 50px;
+
+}
+.order {
+    justify-content: space-between;
+    padding: 5px;
+    
+}
