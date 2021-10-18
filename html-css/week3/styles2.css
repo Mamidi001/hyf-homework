@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(238, 182, 182);
+}
+header{
+    padding: 30PX;
+
+}
+button{
+    padding: 14px 40px;
+
+}
+.navbutton{
+    float: right;
+    padding: 50px;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(138, 133, 133, 0.808);
+}
+.Logobutton{
+    float: left;
+    padding: 50px;
+    width: 10px;
+    height: 10px;
+    font-size: 20px;
+    background-color: silver;
+
+}
+section{
+    padding-top: 100px;
+    
+}
+h1 span{
+    text-align: left;
+    padding: 30px;
+    font-weight: 600;
+
+}
+h2{
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 30px;
+
+}
+.status-bar{
+    
+        width: 100%;
+        padding: 20px;
+       
+        
+}
+h3{
+    padding-left: 20px;
+    padding-top: 20px;
+
+
+}
+
+.status-bar h3{
+        margin-top: 10px;
+       
+        
+}
+.status{
+    width: 100%;
+    padding-left: 1rem;
+}
+
+.bar{
+    width: 90%;
+    height:2.5rem;
+    border: 1px solid gray;
+    position:relative;
+}
+p{
+    padding-left: 20px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: left;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    justify-content: inherit;
+
+}
+input{
+    height: 30px;
+    padding-left: 50px;
+}
+#mail-id{
+    width: 30%;
+}
+   
+#password{
+    width: 30%;
+    
+}
+#repeatPW{
+    width: 30%;
+    
+}
+.grid-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.pasword, .email-id, .pasword, .renter{
+    padding: 20px;
+}
+.phone{
+    float: right;
+    padding-right: 50px;
+
+}
+.lastbuttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 20px;
+}
+.submit{
+    
+    background-color: rgb(187, 189, 184);
+    
+    
+}
+.lastpart{
+    width: 10%;
+    float:right;
+    padding: 100px;
+}
+
