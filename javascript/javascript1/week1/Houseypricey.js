@@ -12,12 +12,12 @@ else {console.log('he is paying less')};
 
 // about julia's house
 
-let wide =5;
-let deep=11;
-let high = 8;
-let houseVolume = wide*deep*high;
-let gardenSize=70;
-let houseCost=1000000;
-let housePrice = houseVolume * 2.5 * 1000 + gardenSize * 300;
+let houseWide =5;
+let houseDeep=11;
+let houseHigh = 8;
+let houseVolume = houseWide*houseDeep*houseHigh;
+let houseGardenSize=70;
+let juliaHouseCost=1000000;
+housePrice = houseVolume * 2.5 * 1000 + houseGardenSize * 300;
 if(housePrice>houseCost){ console.log ('julia is paying high')}
 else{console.log ('julia is paying less')};
