@@ -4,13 +4,13 @@
     const activities = [];
     
     function addActivity(date, activity,duration){
-        const object ={
+        const activityInfo ={
             date :date,
             activity :activity,
             duration :duration
 
         }
-        activities.push(object);
+        activities.push(activityInfo);
     }
 
 addActivity("23/7-18", "Youtube", 30);

@@ -14,5 +14,5 @@ const names = [
   
   const namesToRemove = names.indexOf("Ahmad");
   //to remove specific element 
-  names.splice(1,1);
+  names.splice(namesToRemove,1);
   console.log(names);

@@ -41,6 +41,7 @@ const seriesDurations = [
         console.log(seriesDurations.hours/24);
         totalDuration = totalDuration+seriesDurations.days+seriesDurations.hours/24;
        });
+      }
     const lifeTimeSpent=totalDuration/(80*365);
     console.log (lifeTimeSpent*100);
 

@@ -5,7 +5,7 @@
   };
   const travelTime = getTravelTime(travelInformation);
   function getTravelTime(){
-      let journeyDuration = travelInformation.destinationDistance/ travelInformation.speed;//8.64
+      const journeyDuration = travelInformation.destinationDistance/ travelInformation.speed;//8.64
       return Math.floor(journeyDuration)+"hours and "+Math.floor((journeyDuration - Math.floor(journeyDuration))* 60)+"minutes";
       
   }
