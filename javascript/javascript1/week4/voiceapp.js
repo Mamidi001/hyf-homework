@@ -1,7 +1,7 @@
 
 
-let toDoList = [];
-let myName = [];
+const toDoList = [];
+const myName = [];
 
 
 
@@ -12,7 +12,7 @@ function getReply(command){
 
 if (command.includes('Hello my name is') || command.includes( 'i am ')){
     
-    let text =command.split('');
+    const text =command.split('');
      console.log(text);
     
      const InputName= text[text.length-1];
@@ -59,11 +59,11 @@ if (command.includes('what is on my todo')){
 // I use the simple code but i don't no whether i can use like this or not
 
 const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-let today = new Date();
+const today = new Date();
 
-let month = (today.getMonth());
-let date = (today.getDate());
-let year = today.getFullYear();
+const month = (today.getMonth());
+const date = (today.getDate());
+const year = today.getFullYear();
 
 console.log(`${date}. of ${months[month]} ${year} `);
 
