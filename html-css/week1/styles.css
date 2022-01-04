@@ -1,48 +1,29 @@
-body{
-    background-color: rgba(248, 183, 183, 0.342);
+ body{
+    background-color:#bde4ea ;
+}
+ h4{
+    color : rgb(0, 162, 255);
+    font-style: italic;
+}
+ .lastimage {
+     background-color: rgb(42, 110, 165);
+     width: 50px;
+     
+}
+.first{
+    color: black;
+}
+img:hover, a:hover{
+   background-color: coral;
 }
 h1{
-    font-size: 40px;
-    color: darkblue;
-    padding-left: 60vh;
-}
-.name{
-    font-size: 20px;
-    color: darkblue;
-    padding-left: 30vh;
-
-}
-.About-me{
-    font-style: italic;
-    font-size: 150%;
-    color: brown;
-    padding-left: 20px;
+    text-align: center ;
+    color: rgba(238, 165, 138, 0.966);
+    
     
 }
-.info-me {
-    font-style: oblique;
-    text-align: left;
-    padding-left: 20px;
-}
-
-.Education, .Details, .Softskills {
-    color: brown;
-    font-style: italic;
-    padding-left: 20px;
-}
-.Language, .hobbies, .experience{
-    color: brown;
-    font-style: italic;
-    padding-left: 20px;
-
-}
-.pic{
+hr{
+    border-color: rgb(175, 171, 170);
+    border-style: dotted;
    
-    padding-left: 750px;
-    height: 200px;
-}
-
-
-.left-sidetext {
-    padding-bottom: 50px;
 }
