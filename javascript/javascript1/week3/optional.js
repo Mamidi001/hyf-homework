@@ -12,10 +12,10 @@ function addActivity(date, activity, duration){
       console.log('error');
     }
 }
-addActivity("23/7-18", "Youtube", 0);
-addActivity("23/7-18", "Youtube", 30);
-addActivity("23/7-18", "Youtube", 10);
-addActivity("23/7-18", "Youtube", 0);
+addActivity(myDate(), "Youtube", 0);
+addActivity(myDate(), "Youtube", 30);
+addActivity(myDate(), "Youtube", 10);
+addActivity(myDate(), "Youtube", 0);
 console.log(activities);
 const limit = 60;
 let screenLimit = 0;
@@ -42,4 +42,26 @@ else{
 }
 }
 
-showStatus(activities);
+//showStatus(activities);
+
+function myDate(){
+let today = new Date();
+let dd = today.getDate();
+
+let mm = today.getMonth()+1; 
+let yyyy = today.getFullYear().toString().substring(2,4);
+if(dd<10) 
+{
+    dd='0'+dd;
+} 
+
+if(mm<10) 
+{
+    mm='0'+mm;
+} 
+today = dd+'/'+mm+'-'+yyyy;
+return today;
+
+}
+myDate();
+
