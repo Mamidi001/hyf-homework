@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(238, 182, 182);
+}
+header{
+    padding: 30PX;
+
+}
+button{
+    padding: 14px 40px;
+
+}
+.navbutton{
+    float: right;
+    padding: 50px;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(138, 133, 133, 0.808);
+}
+.Logobutton{
+    float: left;
+    padding: 50px;
+    width: 10px;
+    height: 10px;
+    font-size: 20px;
+    background-color: silver;
+}
+section{
+    padding-top: 100px;
+    
+}
+h1 span{
+    text-align: left;
+    padding: 30px;
+    font-weight: 600;
+
+}
+h2{
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 30px;
+
+}
+.status-bar{
+    
+        width: 100%;
+        padding: 20px;
+       
+        
+}
+h3{
+    padding-left: 20px;
+    padding-top: 20px;
+
+
+}
+
+.status-bar h3{
+        margin-top: 10px;
+       
+        
+}
+.status{
+    width: 100%;
+    padding-left: 1rem;
+}
+
+.bar{
+    width: 90%;
+    height:2.5rem;
+    border: 1px solid gray;
+    position:relative;
+}
+p{
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.form1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 1.5rem;
+    margin: 1rem 5px;
+    justify-content: space-evenly;
+}
+#Apparal, .checkbox1{
+    width: 30px;
+    height: 30px;
+
+}
+#jewelery, .checkbox2{
+    width: 30px;
+    height: 30px;
+
+}
+#Accessories, .checkbox3{
+    width: 30px;
+    height: 30px;
+
+}
+#Shoes, .checkbox4{
+    width: 30px;
+    height: 30px;
+
+}
+#Handbags, .checkbox5{
+    width: 30px;
+    height: 30px;
+
+}
+form, .form2, .images2{
+    display: flex;
+    flex-flow: row;
+    padding-left: 20px;
+    justify-content: space-around;
+    padding-left: 10px;
+}
+.lastpart{
+    background-color: silver;
+
+}

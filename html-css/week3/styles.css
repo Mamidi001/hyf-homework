@@ -1,0 +1,215 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+   
+    background-color: rgb(247, 187, 187);
+    font-family: Arial, Helvetica, sans-serif;
+}
+      /*---header styling in all pages---*/
+  header{
+    padding: 30px;
+    background-color: rgba(245, 102, 45, 0.664);
+    border-bottom:  black solid;
+     
+    }
+    .logo-div{
+        padding: 1vw;
+
+    }
+  img{
+      height: 40px;
+      width: 40px;
+    }
+ 
+  
+  .rigthbutton{
+      
+      justify-content: end;
+    }
+  
+   
+  
+h1{
+    font-family:inherit;
+    padding: 20px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    
+}
+.para1 p{
+    padding-left: 20px;
+    text-align: left;
+    display: block;
+}
+.signup-status{
+    padding: 20px 0px;
+}
+.signup-form label{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 1vw;
+    text-align: right;
+}
+label {
+    cursor: default;
+}
+progress{
+    width: 80%;
+    height: 12px;
+    margin: 0.5vw;
+    
+}
+::-webkit-progress-bar{
+    background-color: blueviolet;
+}
+::-webkit-progress-inner-element{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+::-webkit-progress-value{
+    background-color: orange;
+}
+section #progress {
+    width: 100px;
+    background-color: black;
+    padding-top: 20px;
+   
+}
+
+ h2{
+padding: 10px 0px 0px 5px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight:700;
+
+}
+p{
+    padding: 20px 0px 0px 10px;
+}
+
+
+
+h5{
+    padding-bottom: 0px;
+    padding-left: 10px;
+
+}
+.small-para{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: lighter;
+    font-size: 15px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content:inherit;
+    position: relative;
+    text-align: left;
+    padding-bottom: 30px;
+    padding-left: 10px;
+
+}
+input{
+    height: 30px;
+    padding-left: 50px;
+}
+.content2{
+    display: flex;
+    flex-direction: row;
+    justify-content: inherit;
+    position: relative;
+    text-align: left;
+     padding-top:10px;
+     padding-left: 10px;
+}
+input{
+    height: 30px;
+    padding-left: 50px;
+   
+}
+.profile-description{
+    padding-top: 90px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: inherit;
+    position: relative;
+    text-align: left;
+   
+
+}
+.profile-label{
+    display: flex;
+    flex-flow: column wrap;
+    width: 15%;
+    margin-right: 0.5vw;
+}
+
+
+    
+.p{
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.info-country{
+    padding-left: 10px;
+    padding-bottom: 30px;
+   
+}
+label{
+    height: 30px;
+    
+}
+.lastpart{
+    padding-right: 100px;
+}
+button {
+    background-color: silver;
+    border-radius: 12px;
+    display: block;
+    justify-items: end;
+    float: right;
+    padding: 10px;
+}
+.status{
+    width: 100%;
+    padding-left: 1rem;
+}
+
+
+textarea{
+    width: 70%;
+    margin: 10px 0 0 10px;
+}
+.checkbox{
+    width: 40%;
+}
+.content label, .content input{
+    margin: 10px;
+}
+
+
+
+
+
+
+    
+
+
+    
+    
+  
+  
+ 
+    
+    
+
+
+
+  
+  
