@@ -1,3 +1,4 @@
+databases-week1
 
 -- get the table
 SELECT * 
@@ -61,3 +62,5 @@ FROM task
 INNER JOIN status ON status.id= task.status_id
 GROUP BY status_id
 ORDER BY status_id, COUNT(task.id) DESC;
+
+
