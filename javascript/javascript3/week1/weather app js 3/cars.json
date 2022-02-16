@@ -1,0 +1,32 @@
+[
+  {
+ "name": "BMW",
+ "color":"red",
+ "modelnum": "2022BMW",
+ "launched-":2021 , 
+ "hybrid" : true
+},
+{
+ "name": "Tesla",
+ "color":"blue",
+ "modelnum": "model-X",
+ "launched-year":2022 ,
+ "hybrid" :false ,
+ "launched-countries" :[ "USA", "Denmark" , "Germany"] 
+},
+{
+ "name": "Porsche",
+ "color":"black",
+ "modelnum": 718 ,
+ "launched-year":2021 ,
+ "benzin" : false
+},
+{
+ "name": "Ferrari",
+ "color":"RED",
+ "modelnum": "DAYTONA-SP3",
+ "launched-year":2021 ,
+ "hybrid" : "yes"
+
+}]
+

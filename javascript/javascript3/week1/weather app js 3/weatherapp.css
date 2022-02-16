@@ -1,0 +1,80 @@
+body{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url(https://www.vmcdn.ca/f/files/via/images/snow-falling-forest.jpg;w=1000;h=496;mode=crop);
+ background-size: cover;
+ background-position: center;
+  
+}
+h2{
+  color: black;
+}
+p{
+  font-size: 20px;
+  position: absolute;
+  margin: 0px 100px 50px 30px;
+  
+
+}
+img{
+  position: relative;
+  top: 50px;
+  height: 200px;
+}
+.information{
+  position: absolute;
+  top: 100px;
+}
+.btn-submit{
+  color:white;
+  background-color: blue;
+  width: 70px;
+  height: 30px ;
+  border-radius: 30%;
+}
+ .btn-submit:hover{
+  background-color: rgba(43, 144, 226, 0.493) ;
+}
+.input-city{
+  width: 200px;
+  height: 30px;
+  text-align: center;
+  background-color: rgb(146, 228, 231);
+  font-size: 20px;
+}
+.temp{
+  color: rgb(7, 11, 243);
+  
+}
+.sunrise{
+  color:rgb(248, 74, 10)
+}
+.sunset{
+  color: rgb(247, 135, 6);
+  
+}
+  .swimming{
+  width : 100px;
+  height: 100px;
+  position: absolute;
+  left: 116px;
+  top: 349px;
+  right: 100px;
+
+}
+.displayInfo{
+  position: relative;
+  left: 10px;
+  padding-top: 100px;
+}
+.para{
+position: absolute;
+top: 130px;
+width: 100%;
+
+
+}
