@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Indian food in the summer",
+    "maxNumberOfGuests": 5,
+    "description": "A nice night out eating delicious indian food",
+    "createdAt": "2019/12/7 14:34",
+    "price": 67
+  },
+  {
+    "id": 2,
+    "title": "Indian food in the winter",
+    "maxNumberOfGuests": 15,
+    "description": "A nice night with friends and eating delicious indian food",
+    "createdAt": "2019/2/27 14:34",
+    "price": 167
+  },
+  {
+    "id": 3,
+    "title": "Indian food in the autum",
+    "maxNumberOfGuests": 25,
+    "description": "nice and spicy soup",
+    "createdAt": "2012/12/17 14:34",
+    "price": 267
+  }
+]
