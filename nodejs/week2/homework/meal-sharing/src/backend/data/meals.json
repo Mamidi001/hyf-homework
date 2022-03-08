@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Indian food in the summer",
+    "maxNumberOfGuests": 5,
+    "description": "A nice night out eating delicious indian food",
+    "createdAt": "2019/12/7",
+    "price": 67
+  },
+  {
+    "id": 2,
+    "title": "mexicon food in the winter",
+    "maxNumberOfGuests": 15,
+    "description": "A nice night out eating delicious mexicon food with besties",
+    "createdAt": "2019/12/17",
+    "price": 100
+  },
+  {
+    "id": 3,
+    "title": "chienese food in the autum",
+    "maxNumberOfGuests": 25,
+    "description": "A nice and spicy soup",
+    "createdAt": "2019/12/27",
+    "price": 167
+  },
+  {
+    "id": 4,
+    "title": "Italian food in the spring",
+    "maxNumberOfGuests": 10,
+    "description": "A nice and creamy soup",
+    "createdAt": "2019/12/15",
+    "price": 150
+  }
+]
