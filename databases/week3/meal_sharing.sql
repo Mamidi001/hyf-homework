@@ -101,6 +101,21 @@ UPDATE reservation SET contact_name = 'zeff' WHERE id = 6;
 SELECT price, meal.title from meal WHERE price<70;
 
 --Get meals that still has available reservations
+select
+  meal.id,
+  meal.title,
+  meal.max_reservations,
+  SUM(reservation.number_of_guests) as "Total guests",
+  (
+    meal.max_reservations - SUM(reservation.number_of_guests)
+  ) as Remaining
+FROM
+  meal
+  INNER JOIN reservation ON meal.id = reservation.meal_id
+GROUP BY
+  meal.id;
+WHERE
+  meal.id = 1;
 --Get meals that partially match a title. Rød grød med will match the meal with the title Rød grød med fløde
 SELECT *
 FROM meal
