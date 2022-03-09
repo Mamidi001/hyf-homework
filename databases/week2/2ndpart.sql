@@ -5,8 +5,8 @@ CREATE DATABASE school
     CREATE TABLE `Class` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT PRIMARY KEY,
   `name` varchar(255) NOT NULL,
-  `begin_date` DATETIME NOT NULL,
-  `end_date` DATETIME NOT NULL 
+  `begin_date` DATETIME,
+  `end_date` DATETIME 
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 CREATE TABLE `Student` (
@@ -17,6 +17,11 @@ CREATE TABLE `Student` (
   `Class_id` int(10) unsigned NOT NULL,
   CONSTRAINT `fk_Class` FOREIGN KEY (`Class_id`) REFERENCES `Class` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+CREATE INDEX student_name ON Student(name);
+ALTER TABLE
+Class
+Add
+status ENUM('not-started', 'ongoing', 'finished');
 
 insert into Class (name,begin_date, end_date, status) 
 values ('swetha', '2022-02-23', '2020-04-20', 'done'),

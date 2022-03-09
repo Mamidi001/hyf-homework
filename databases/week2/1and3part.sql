@@ -30,6 +30,20 @@ update task
 SET status_id = '3'
 WHERE id = 36;
 
+--mark status is done without id
+
+SELECT 
+count(task.id), user.name, status.name
+FROM
+status
+join task ON status_id = task.status_id
+ JOIN user_task on task.id = user_task.task_id
+  JOIN user ON user.id = user_task.user_id
+WHERE
+  status.name = "Done"
+GROUP BY
+  user.name;
+
 --Delete a task
 DELETE FROM task
 WHERE id =36;
@@ -47,7 +61,7 @@ WHERE id =36;
 --Get all the tasks for 'Donald Duck' with status 'Not started'
 -- somehow it is not showing any output
 use hyf_lesson2;
-SELECT task.title,user.name as user, status.name as status 
+SELECT task.title,user.name AS user, status.name as status 
 FROM task
 JOIN status ON task.status_id = status.id 
 JOIN user_task ON task.id = user_task.task_id
@@ -55,7 +69,7 @@ JOIN user ON user_task.user_id = user.id
 WHERE user.name ='Donald Duck' AND status.name = 'Not started';
 
 --Get all the tasks for 'Maryrose Meadows' that were created in september
-SELECT task.title, task.created
+SELECT task.title, task.created, user.name
 FROM task
 JOIN user_task ON task.id = user_task.task_id
 JOIN user ON user_task.user_id = user.id
