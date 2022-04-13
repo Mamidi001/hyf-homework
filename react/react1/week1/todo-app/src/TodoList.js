@@ -1,6 +1,6 @@
 import { ItemList } from "./ItemList";
 
-export function TodoList(props) {
+function TodoList(props) {
   return (
     <ul>
       {props.TodoArray.map((list) => {
@@ -15,3 +15,4 @@ export function TodoList(props) {
     </ul>
   );
 }
+export default TodoList;

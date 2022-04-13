@@ -1,10 +1,10 @@
 //import "./ItemList.css";
 
-export function ItemList(props) {
+export function ItemList({ description, deadline }) {
   return (
     <li>
       <h3>
-        {props.description} , {props.deadline}
+        {description} , {deadline}
       </h3>
     </li>
   );
