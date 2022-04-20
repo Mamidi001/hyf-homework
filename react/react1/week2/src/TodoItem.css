@@ -1,0 +1,8 @@
+
+.todo {
+    cursor: pointer;
+  }
+  .checked {
+    text-decoration: line-through;
+    color: red;
+  }

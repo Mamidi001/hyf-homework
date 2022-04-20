@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => res.send("nodejs week2 homework"));
+
 app.get("/number/add", function (req, res) {
   const first = Number(req.query.first);
   const second = Number(req.query.second);
