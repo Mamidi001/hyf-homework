@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "Chunmei",
+    "email": "chunmei@hughes.dk",
+    "mealId": 1
+  },
+  {
+    "id": 2,
+    "name": "Amrit",
+    "email": "amrit@hughes.dk",
+    "mealId": 1
+  },
+  {
+    "id": 3,
+    "name": "Suman",
+    "email": "suman@hughes.dk",
+    "mealId": 1
+  },
+  {
+    "id": 4,
+    "name": "Hafiz",
+    "email": "hafiz@hughes.dk",
+    "mealId": 2
+  },
+
+  {
+    "id": 5,
+    "name": "Benjamin",
+    "email": "benjamin@hughes.dk",
+    "mealId": 2
+  },
+  {
+    "id": 6,
+    "name": " Hughes",
+    "email": "benjamin@hughes.dk",
+    "mealId": 1
+  },
+  {
+    "id": 7,
+    "name": "asma",
+    "email": "asma@hughes.dk",
+    "mealId": 3
+  },
+  {
+    "id": 8,
+    "name": "swetha",
+    "email": "swetha@.dk",
+    "mealId": 4
+  }
+]

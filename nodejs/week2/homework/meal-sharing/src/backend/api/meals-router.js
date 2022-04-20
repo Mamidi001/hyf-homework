@@ -22,7 +22,6 @@ router.get("/", function (req, res) {
     );
     return res.json(getCreatedDate);
   }
-
   const queryLimit = req.query.limit;
   if (queryLimit) {
     const getLimitedData = meals.filter((meal) => meal.id < limit);
@@ -30,11 +29,9 @@ router.get("/", function (req, res) {
   }
   return res.json(meals);
 });
-
 router.get("/:id", function (req, res) {
   const id = Number(req.params.id);
   const selectedMeals = meals.find((meal) => meal.id === id);
   res.json(selectedMeals);
 });
-
 module.exports = router;
