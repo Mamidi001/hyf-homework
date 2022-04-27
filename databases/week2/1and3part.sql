@@ -7,42 +7,81 @@ from status;
 --part 1
 
 --Add a task with these attributes: title, description, created, updated, due_date, status_id, user_id
-INSERT INTO task (title, description, created, updated, due_date, status_id)
-VALUES("shopping", 'by a car', now(), now(),now(),'2');
+INSERT INTO task (title, 
+description, 
+created, 
+updated, 
+due_date, 
+status_id
+)
+VALUES("shopping", 
+'by a car',
+ now(), 
+ "2022-02-07",
+ "2022-06-01",
+ 2
+ );
 
 --Change the title of a task
-UPDATE task
-SET title = 'cancel shopping'
+UPDATE 
+task
+SET 
+title = 'cancel shopping'
 WHERE id = 36;
 
 --Change a task due date
-update task
+UPDATE
+task
 SET due_date = '2022-02-10'
 WHERE id = 36;
 
 --Change a task status
 update task
-SET status_id = '2'
+SET status_id = 2
 WHERE id = 36;
 
 --Mark a task as complete
 update task
-SET status_id = '3'
-WHERE id = 36;
+SET status_id = 3
+WHERE id = 1;
+DELETE FROM
+task
+WHERE
+id= 36;
+-- SELECT
+--   task.title,
+--   user.email
+-- FROM
+--   task
+--   JOIN user_task ON task.id = user_task.task_id
+--   JOIN user ON user.id = user_task.user_id
+-- WHERE
+--   user.email LIKE "%@spotify.com";
+--   SELECT
+--   task.title,
+--   status.name as status,
+--   user.name as name
+-- FROM
+--   task
+--   JOIN status ON status.id = task.status_id
+--   JOIN user_task ON task.id = user_task.task_id
+--   JOIN user ON user.id = user_task.user_id
+-- WHERE
+--   user.name = "Donald Duck"
+--   AND status.name = "Not started";
 
 --mark status is done without id
 
-SELECT 
-count(task.id), user.name, status.name
-FROM
-status
-join task ON status_id = task.status_id
- JOIN user_task on task.id = user_task.task_id
-  JOIN user ON user.id = user_task.user_id
-WHERE
-  status.name = "Done"
-GROUP BY
-  user.name;
+-- SELECT 
+-- count(task.id), user.name
+-- FROM
+-- task
+--  JOIN user_task on task.id = user_task.task_id
+--   JOIN user ON user.id = user_task.user_id
+-- WHERE
+--   user.name = "maryrose Meadows"
+-- GROUP BY
+--   user.name;
 
 --Delete a task
 DELETE FROM task
@@ -73,7 +112,7 @@ SELECT task.title, task.created, user.name
 FROM task
 JOIN user_task ON task.id = user_task.task_id
 JOIN user ON user_task.user_id = user.id
-WHERE user.name = 'Maryrose Meadows' AND MONTH(created)=09;
+WHERE user.name = 'Maryrose Meadows' GROUP BY MONTH(task.created)=09;
 --Find how many tasks where created in each month, e.g. how many tasks were created in october, how many tasks were created in november, etc.
 SELECT COUNT(task.title), MONTH(created)
 FROM task
