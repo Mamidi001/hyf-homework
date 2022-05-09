@@ -3,3 +3,5 @@ Potato
 cellery
 Carrot
 Cucumber
+Raw banana
+Egg plant
